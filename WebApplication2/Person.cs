@@ -7,10 +7,24 @@ namespace WebApplication2
 {
     public class Person
     {
-        public Person() { 
-        
+        public Person(string username) {
+            this.UserName = username;
+            this.Age = 0;
         }
         public string UserName { get; set; }
         public int Age { get; set; }
+        public decimal salary { get; set; }
+        public string GetUserName()
+        {
+            return UserName;
+        }
+        public void M3()
+        {
+
+        }
+        public void M4()
+        {
+
+        }
     }
 }
